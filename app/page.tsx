@@ -121,13 +121,13 @@ export default function Home() {
           WHY THIS EXISTS
         </p>
         <h2 className="font-serif text-3xl sm:text-4xl font-semibold text-navy-900 leading-tight">
-          Most tutors are thrown in with no training. That's wild.
+          For students who want to make a difference by teaching.
         </h2>
         <p className="mt-6 text-navy-700 leading-relaxed">
-          When I co-founded CACA Summer Camp, I had to train every tutor we
-          hired in a week. The handbook I wrote for them became this site. If
-          you've ever sat across from a student who didn't get it and felt
-          stuck — this is the training I wish I'd had.
+          When I co-founded CACA Summer Camp and trained 10+ tutors in a
+          week, I realized nobody teaches you how to teach. The handbook I
+          wrote for them became this site — open and free, so the next person
+          who starts something doesn't have to figure it all out alone.
         </p>
         <Link
           href="/about"

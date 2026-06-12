@@ -13,26 +13,26 @@ const accomplishments = {
   ],
   teaching: [
     {
-      title: "Trained the tutoring staff at CACA",
-      meta: "Curriculum design",
-      body: "Wrote the internal tutor handbook covering session structure, questioning techniques, handling frustration, and feedback — the same material this site now teaches publicly.",
+      title: "Trained 10+ tutors for CACA Summer Camp",
+      meta: "Curriculum + on-the-job coaching",
+      body: "Wrote the internal tutor handbook covering session structure, questioning techniques, handling frustration, and feedback — then ran the weekly check-ins where every tutor brought back what worked and what didn't. The handbook became this site.",
     },
     {
-      title: "[Add a teaching accomplishment]",
-      meta: "Placeholder",
-      body: "Drop in another teaching, tutoring, or mentorship credit — a class you've TA'd, students you've mentored, a workshop you've run.",
+      title: "Teacher, Northwest Chinese School",
+      meta: "Volunteer instructor",
+      body: "Teach at Northwest Chinese School on weekends — a community language and culture program. Where I got my first real reps in front of a class, not just one student.",
     },
   ],
-  academic: [
+  research: [
     {
-      title: "[Add an academic award or honor]",
-      meta: "Placeholder",
-      body: "Awards, contests, AP/IB performance, research, anything that shows the rigor side of your profile.",
+      title: "Research — neurodiversity",
+      meta: "Independent study",
+      body: "Investigating how neurodivergent students learn differently and what tutoring practices actually serve them well — beyond the one-size-fits-all advice in most teaching guides.",
     },
     {
-      title: "[Add another academic credit]",
-      meta: "Placeholder",
-      body: "Honor roll, competition placements, summer programs, etc.",
+      title: "Research — misinformation across demographics",
+      meta: "Independent study",
+      body: "Studying how different demographic groups respond to misinformation and which framings change minds. Origin of the 'Fake News Detector' work that taught me how much teaching matters: people don't need more facts, they need better thinking.",
     },
   ],
 };
@@ -105,16 +105,19 @@ export default function About() {
 
       <Group label="LEADERSHIP" items={accomplishments.leadership} />
       <Group label="TEACHING" items={accomplishments.teaching} />
-      <Group label="ACADEMIC" items={accomplishments.academic} />
+      <Group label="RESEARCH" items={accomplishments.research} />
 
       <div className="mt-20 border-l-2 border-gold-500 pl-6 bg-navy-50 py-6 pr-6">
         <h2 className="font-serif text-2xl font-semibold text-navy-900">
           Why I built this site
         </h2>
-        <p className="mt-4 text-navy-700 leading-relaxed italic">
-          [Placeholder: 2–4 sentence story about why teaching tutors matters
-          to you. The story you'd tell on a college essay. Drop it in and the
-          site picks it up immediately.]
+        <p className="mt-4 text-navy-700 leading-relaxed">
+          I built this site for students who want to make a difference in
+          their communities by creating and teaching. Most of us are handed a
+          textbook and told to figure it out — nobody trains us in the actual
+          skill of helping another person understand something. This is the
+          training I wish I'd had, made open for the next person who decides
+          to start something.
         </p>
       </div>
     </div>
